@@ -268,3 +268,97 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/***** HEADER *****/
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/***** MAIN *****/
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.features .feature-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.reviews {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/***** ABOUT *****/
+
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/***** FAQ *****/
+
+.faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/***** FOOTER *****/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .social-icons p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
