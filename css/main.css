@@ -526,6 +526,13 @@
       display: none;
     }
     /* Hero Area */
+
+    .hero-area {
+      background: url(/img/jake-melara-30679-unsplash.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+
+    }
   
     .hero-area h1 {
       font-size: 3em;
