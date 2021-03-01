@@ -15,6 +15,13 @@
     font-size: 1em;
     line-height: 1.4;
   }
+  img { 
+    width: 100%;
+  }
+   
+  figure {
+          margin: 0;
+  }
   
   /*
    * Remove text-shadow in selection highlight:
@@ -241,6 +248,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    min-height: 500px;
   }
   
   .hero-area h1 {
@@ -292,6 +300,8 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url(/img/rawpixel-800820-unsplash1.jpg) center no-repeat;
+    background-size: cover;
   }
   
   .features h2 {
@@ -332,6 +342,14 @@
   .reviews h3 {
     width: 55%;
     margin: 20px 0;
+  }
+
+  .reviews figure {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
   
   /* ==========================================================================
