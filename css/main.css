@@ -251,7 +251,7 @@
     justify-content: center;
     flex-flow: row wrap;
     min-height: 500px;
-    background: url(/img/jake-melara-30679-unsplash.jpg) no-repeat;
+    background: url(https://matthewpco.github.io/unplugged/img/jake-melara-30679-unsplash.jpg) no-repeat;
     background-position: center;
     background-size: cover;
   }
@@ -305,7 +305,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url(/img/rawpixel-800820-unsplash1.jpg) center no-repeat;
+    background: url(https://matthewpco.github.io/unplugged/img/rawpixel-800820-unsplash1.jpg) center no-repeat;
     background-size: cover;
   }
   
@@ -575,7 +575,7 @@
     /* Hero Area */
 
     .hero-area {
-      background: url(/img/jake-melara-30679-unsplash.jpg) no-repeat;
+      background: url(https://matthewpco.github.io/unplugged/img/jake-melara-30679-unsplash.jpg) no-repeat;
       background-position: center;
       background-size: cover;
 
