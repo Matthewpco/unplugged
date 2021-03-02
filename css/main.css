@@ -194,12 +194,13 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    margin-right: 40px;
   }
   
   header nav ul {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   
   header nav ul li {
@@ -244,11 +245,15 @@
   
   /* Hero Area */
   
+
   .hero-area {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
     min-height: 500px;
+    background: url(/img/jake-melara-30679-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   
   .hero-area h1 {
@@ -350,7 +355,7 @@
   }
 
   .reviews figure {
-    width: 45%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -430,6 +435,9 @@
     line-height: 1.333;
   }
   
+  .faq .content-wrapper h3:last-child {
+    flex: auto;
+  }
   /* ==========================================================================
      Helper classes
      ========================================================================== */
@@ -554,7 +562,7 @@
     }
   
     header nav {
-      width: 20%;
+      width: 30%;
     }
   
     header nav ul {
@@ -615,6 +623,11 @@
     .reviews article {
       display: flex;
       justify-content: space-between;
+      flex-flow: wrap;
+    }
+
+    .reviews figure {
+      width: 45%;
     }
   
     .reviews h2 {
@@ -668,6 +681,7 @@
       justify-content: space-between;
       align-items: center;
       padding-top: 20px;
+      flex-flow: row wrap;
     }
   
     .mission-content p {
@@ -769,6 +783,10 @@
   
     .reviews h2 {
       padding-bottom: 50px; 
+    }
+
+    .reviews figure {
+      width: 50%;
     }
     
     .reviews article div {
