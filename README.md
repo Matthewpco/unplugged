@@ -1,6 +1,7 @@
-![](https://raw.githubusercontent.com/Matthewpco/Rogue-Pickings/master/img/rp-ss.png)
+![](https://raw.githubusercontent.com/Matthewpco/unplugged/master/img/unplugged-ss.2png.png)
 
 # This is a web site for the tech retreat Unplugged
+
 
 <br>
 
